@@ -7,3 +7,10 @@ def lovesMore(ele):
 
 for item in markusLoves:
     lovesMore(item)
+markusLovescars = ["ford", "Volvo", "BMW"]
+
+def lovesMor(ele):
+    print("Markus loves Cars more than Python " + ele +".")
+
+    for item in markusLoves:
+        lovesMore(item)
