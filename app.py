@@ -1,7 +1,9 @@
+import random
+
 markusLoves = ["python","Bread","Cake","Water","Cats","Dogs"]
 
-def lovesMore(eleme):
-    for x in eleme
+def lovesMore(ele):
+    
     print("Markus loves Java more than " + ele + ".")
 
-lovesMore(markusLoves)
+lovesMore(random.choice(markusLoves))
