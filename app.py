@@ -9,3 +9,4 @@ def lovesMore(ele):
 
 for _ in range(len(markusLoves)):
     lovesMore(random.choice(markusLoves))
+  
