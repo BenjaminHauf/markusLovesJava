@@ -7,5 +7,5 @@ def lovesMore(ele):
     with open("README.md", "a") as file:
         file.write("Markus loves Java more than " + ele + ".\n")
 
-for item in range(len(markusLoves)):
+for _ in range(len(markusLoves)):
     lovesMore(random.choice(markusLoves))
